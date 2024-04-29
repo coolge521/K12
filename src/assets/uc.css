@@ -1,0 +1,245 @@
+/*表格相关[start]*/
+/*.uc-page {*/
+/*  margin-top: 5px;*/
+/*  margin-bottom: 5px;*/
+/*  float: right;*/
+/*}*/
+
+/*.uc-table {*/
+/*  width: 100%;*/
+/*  height: 65vh;*/
+/*  margin-top: 0px;*/
+/*  overflow: auto;*/
+/*}*/
+.ivu-table-tip {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: none;
+}
+.ivu-table td,
+.ivu-table th {
+  min-width: 0;
+  height: 26px !important;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  border-bottom: 1px dashed #e9eaec;
+}
+
+.ivu-table-cell {
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+
+/*.ivu-page-item-active {*/
+/*  background-color: #0084b4;*/
+/*  border-color: #0084b4;*/
+/*}*/
+
+/*表格相关[end]*/
+
+/*首页布局相关[start]*/
+.layout {
+  border: 1px solid #d7dde4;
+  position: relative;
+  border-radius: 4px;
+  overflow: auto;
+  height: 100%;
+}
+
+.layout-logo {
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  float: left;
+  position: relative;
+  top: 15px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.layout-logo span {
+  font-family: "Microsoft Sans Serif";
+  font-size: large;
+  font-style: inherit;
+  color: white;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.layout-logo-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.layout-nav {
+  width: 600px;
+  /*margin: 0 auto;*/
+  margin-left: 200px;
+  color: white;
+}
+
+.layout-footer-center {
+  text-align: left;
+  margin: 0 auto;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.word-v-middle {
+  margin-bottom: 0;
+  font-size: 16px;
+  min-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18px;
+  margin-top: 5px;
+  color: #87878a;
+  white-space: normal;
+}
+
+.word-v-middle span {
+  font-family: "Microsoft Sans Serif";
+  font-size: large;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.word-v-middle Button {
+  float: right;
+}
+
+.ivu-layout {
+  height: 100%;
+}
+
+.ivu-layout-header {
+  padding: 0 25px;
+}
+
+.layout-login {
+  margin: 0 auto;
+  color: white;
+  vertical-align: middle;
+  float: right;
+}
+
+.layout-login-img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+/*首页布局相关[end]*/
+
+
+
+/*.mian {*/
+  /*height: 100%;*/
+  /*background: url(/static/images/login_bg.png) no-repeat;*/
+/*}*/
+
+/*.main-bg {*/
+  /*width: 520px;*/
+  /*height: 257px;*/
+  /*background: url(/static/images/login_main_bg.png) no-repeat;*/
+  /*background-size: 100%*/
+/*}*/
+
+/*.main-top {*/
+  /*height: 180px;*/
+/*}*/
+
+/*.main-form {*/
+  /*margin-left: 198px;*/
+/*}*/
+
+/*.main-form span {*/
+  /*height: 100px;*/
+  /*font-family: "Microsoft YaHei";*/
+  /*font-size: 24px;*/
+  /*color: #FF5C26;*/
+/*}*/
+
+/*.assist {*/
+  /*hight: 10px;*/
+  /*font-size: 8px;*/
+/*}*/
+
+
+
+.left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 5px 0;
+}
+.right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 0 5px 0;
+  margin-top: 10px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+.ivu-layout-header{
+  background: #021D38;
+}
+.ivu-menu-dark{
+  background: #021D38;
+}
+.ivu-menu-item{
+
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item:hover, .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title:hover{
+  background: #021D38!important;
+  color: #096DD9!important;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item{
+  background: #021D38;
+  color: #fff;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-opened .ivu-menu-submenu-title{
+  background: #021D38!important;
+  color: #fff!important;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item:hover{
+  background: #021D38!important;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item-active, .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item-active:hover{
+  background: #096DD9!important;
+  color: #fff!important;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-child-item-active>.ivu-menu-submenu-title{
+  color: #096DD9!important;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu{
+  color: #fff;
+}
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover{
+  color: #fff;
+}
+.ivu-menu-horizontal{
+  height: 65px;
+}
+
+
+

@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  outline: 0;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  vertical-align: middle;
+}
+
+button, input, select {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  vertical-align: top;
+}
+
+input, select, textarea {
+  outline: 0;
+}
+
+textarea, input {
+  -webkit-user-modify: read-write-plaintext-only;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure, form, blockquote {
+  margin: 0;
+}
+
+ul, ol, li, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none outside none;
+}
+
+i {
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+[v-cloak] {
+  display: none;
+}
+.fontColor{
+  color: #00b1f5;
+}
+.identifyColor{
+  color: #f5a646;
+}
+.average{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.ivu-modal-footer{
+  text-align: center;
+}
+.ivu-modal-footer >div button{
+  width: 100px;
+}
